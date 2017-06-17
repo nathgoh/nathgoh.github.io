@@ -1,4 +1,7 @@
 body
 {
-    background-color: powderblue;
+    background-image: url(city1.jpg);
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
 }
