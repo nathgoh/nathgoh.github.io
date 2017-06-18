@@ -3,7 +3,6 @@ html
     height: 100%;
     min-height: 100%;
 }
-
 /*Background*/
 #background
 {
@@ -16,9 +15,7 @@ html
     position: fixed;
     height: 100%;
     width: 100%;
-    z-index: -1;
-    
-      
+    z-index: -1;     
 }
 body
 {
@@ -31,26 +28,52 @@ body
     min-height:100%;
     width: 100%;
     top: 0; right: 0; left: 0;
-    margin:0;
-   
-    
+    margin:0; 
 }
 
+/*Main Section Stuff*/
+div#main
+{
+    height: 100%;
+    overflow-y: auto;
+    margin: auto;
+}
+section
+{
+    font-family: 'Roboto Thin', 'sans-serif';
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #4d4d4d;
+    width: 95%;
+    margin-top: 24px;
+    padding: 1px 0px 1px 24px;
+    color: ghostwhite;
+}
 /*Navigation Bar Styling*/
 ul
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 100%;
     width: 200px;
-    background-color: black;
+    position: fixed;
+    overflow: auto;
+    background-color: #2d2d2d;
 }
 li a
 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-family: 'Roboto Thin', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
     display: block;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
+}
+li a:hover
+{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
 }
