@@ -1,7 +1,56 @@
-body
+html
+{
+    height: 100%;
+    min-height: 100%;
+}
+
+/*Background*/
+#background
 {
     background-image: url(city1.jpg);
     background-size: cover;
-    position: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+      
+}
+body
+{
+    background-image: url("mountain1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style:none;
+    position: fixed;
+    height: 100%;
+    min-height:100%;
+    width: 100%;
+    top: 0; right: 0; left: 0;
+    margin:0;
+   
+    
+}
+
+/*Navigation Bar Styling*/
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+}
+li a
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
 }
