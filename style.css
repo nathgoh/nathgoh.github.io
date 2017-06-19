@@ -27,8 +27,11 @@ body
     height: 100%;
     min-height:100%;
     width: 100%;
+    min-width: 100%;
     top: 0; right: 0; left: 0;
     margin:0; 
+    font-family: 'Roboto Thin', 'sans-serif';
+    font-weight: bold;;
 }
 
 /*Main Section Stuff*/
@@ -40,14 +43,12 @@ div#main
 }
 section
 {
-    font-family: 'Roboto Thin', 'sans-serif';
-    font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #4d4d4d;
     width: 95%;
     margin-top: 24px;
     padding: 1px 0px 1px 24px;
-    color: ghostwhite;
+    color: white;
 }
 /*Navigation Bar Styling*/
 ul
@@ -63,12 +64,10 @@ ul
 }
 li a
 {
-    font-family: 'Roboto Thin', sans-serif;
-    font-weight: bold;
-    font-size: 19px;
+    font-size: 20px;
     display: block;
     color: white;
-    padding: 8px 16px;
+    padding: 20px 16px;
     text-decoration: none;
 }
 li a:hover
