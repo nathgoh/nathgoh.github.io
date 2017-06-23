@@ -6,23 +6,83 @@
     <head>
         <link rel="icon" href= "favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Nathaniel Goenawan</title>
     </head>
+    <style>
+        /*Animation and styling of side bar navigation*/
+        .overlay
+        {
+            height: 100%;
+            width: 0;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            position: fixed;
+            background-color: #2d2d2d;
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
+        .overlay-content
+        {
+           position: relative;
+            top: 11%;
+            width: 100%;
+            text-align: left;
+        }
+        .overlay a
+        {
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            font-family: 'Roboto Thin', 'sans-serif';
+            font-weight: bold;
+            display: block;
+            transition: 0.3s;
+        }
+        .overlay a:hover, .overlay a:focus
+        {
+            text-decoration: underline;
+        }
+        .overlay .closebtn
+        {
+            position: absolute;
+            top: 0px;
+            right: 45px;
+            font-size: 50px;
+        }
+        @media screen and (max-height: 450px) 
+        {
+            .overlay a 
+            {
+                font-size: 20px
+            }
+            .overlay .closebtn 
+            {
+                font-size: 35px;
+                top: 0px;
+                right: 35px;
+            }
+        }
+    </style>
     <body>
         <img src="city1.jpg" id="background">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#yoyo">Yo-Yo Performance</a></li>
-                <li><a href="#random">Random Pictures</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div id= "sidenav" class= "overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#yoyo">Yo-Yo Performance</a>
+                <a href="#random">Random Pictures</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
         <div id="main" style= "margin-left: 17%">
             <section id= "about">
                 <h1>About</h1>
+                <p>Hi! My name is Nathaniel Goenawan. This is my work-in progress autobiography webpage. This project will never be considered complete, as this will be my go-to page to test and learn html and css coding.</p>
             </section>
             <section id= "yoyo">
                 <h1>Yo-Yo Performance</h1>
@@ -34,5 +94,17 @@
                 <h1>Contact</h1>
             </section>
         </div>
+        <script>
+            function openNav()
+            {
+                document.getElementById("sidenav").style.width="30%";
+                document.body.style.backgroundColor = "rgba(0,0,0,.4)";
+            }
+            function closeNav()
+            {
+                document.getElementById("sidenav").style.width="0%";
+                document.body.style.backgroundColor = "rgba(0,0,0,0)";
+            }    
+        </script>
     </body>
 </html>

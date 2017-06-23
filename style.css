@@ -31,9 +31,8 @@ body
     top: 0; right: 0; left: 0;
     margin:0; 
     font-family: 'Roboto Thin', 'sans-serif';
-    font-weight: bold;;
+    font-weight: bold;
 }
-
 /*Main Section Stuff*/
 div#main
 {
@@ -49,30 +48,4 @@ section
     margin-top: 24px;
     padding: 1px 0px 1px 24px;
     color: white;
-}
-/*Navigation Bar Styling*/
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    overflow: auto;
-    background-color: #2d2d2d;
-}
-li a
-{
-    font-size: 20px;
-    display: block;
-    color: white;
-    padding: 20px 16px;
-    text-decoration: none;
-}
-li a:hover
-{
-    background-color: black;
-    color: white;
-    text-decoration: underline;
 }
