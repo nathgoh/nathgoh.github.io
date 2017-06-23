@@ -30,8 +30,21 @@ body
     min-width: 100%;
     top: 0; right: 0; left: 0;
     margin:0;
-    font-family: 'Roboto Thin', 'sans-serif';
-    font-weight: bold;
+    font-family: 'Noto Sans', 'sans-serif';
+    font-weight: 100;
+}
+/*Header Stuff*/
+header
+{
+    padding: 1px 16px 16px 16px;
+    background-color: rgba(30,30,30,0.8);
+    color: white;
+}
+h1
+{
+    font-size: 1.5em;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
 }
 /*Section Stuff*/
 section
@@ -41,23 +54,77 @@ section
     box-shadow: 2px 4px 2px rgba(80,80,80,0.4);
     background-color: rgba(80,80,80,0.7);
     width: 100%;
-    margin: auto auto 30px auto;
+    margin: auto auto 35px auto;
     margin-top: 30px;
     max-width: 1250px;
     padding: 1px 10px 1px 24px;
     color: white;
 }
-
 /*Footer Stuff*/
 footer
 {
-    background-color: rgb(40,40,40);
+    background-color: rgba(30,30,30,0.8);
     color: white;
     width: 100%;
     right: 0;
     bottom: 0;
     position: relative;
     margin: 20px 0 0 0;
-    padding: 14px;
+    padding: 16px;
     text-align: center;
+}
+/*Animation and styling of side navigation*/
+.overlay
+{
+    height: 100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: #2d2d2d;
+    overflow-x: hidden;
+    transition: 0.6s;
+}
+.overlay-content
+{
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: left;
+}
+.overlay a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 100;
+    display: block;
+    transition: 0.4s;
+}
+.overlay a:hover, .overlay a:focus
+{
+    text-decoration: underline;
+}
+.overlay .closebtn
+{
+    position: absolute;
+    top: 0px;
+    right: 45px;
+    font-size: 50px;
+}
+@media screen and (max-height: 450px) 
+{
+    .overlay a 
+    {
+        font-size: 18px
+    }
+    .overlay .closebtn 
+    {
+        font-size: 30px;
+        top: 0px;
+        right: 35px;
+    }
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <head>
         <link rel="icon" href= "favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="https://use.fontawesome.com/b8d7db3a54.js"></script>
         <title>Nathaniel Goenawan</title>
@@ -22,11 +22,11 @@
             position: fixed;
             background-color: #2d2d2d;
             overflow-x: hidden;
-            transition: 0.5s;
+            transition: 0.6s;
         }
         .overlay-content
         {
-           position: relative;
+            position: relative;
             top: 15%;
             width: 100%;
             text-align: left;
@@ -37,10 +37,10 @@
             text-decoration: none;
             color: white;
             font-size: 30px;
-            font-family: 'Roboto Thin', 'sans-serif';
-            font-weight: bold;
+            font-family: 'Roboto', 'sans-serif';
+            font-weight: 100;
             display: block;
-            transition: 0.3s;
+            transition: 0.4s;
         }
         .overlay a:hover, .overlay a:focus
         {
@@ -66,21 +66,32 @@
                 right: 35px;
             }
         }
+      
     </style>
     <body>
         <img src="city1.jpg" id="background">
         <header id="header">
-            <div id= "sidenav" class= "overlay">
+            <div id="sidenav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#yoyo">Yo-Yo Performance</a>
-                    <a href="#random">Random Pictures</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#home" onclick="closeNav()">Home</a>
+                    <a href="#about" onclick="closeNav()">About</a>
+                    <a href="#yoyo" onclick="closeNav()">Yo-Yo Performance</a>
+                    <a href="#random" onclick="closeNav()">Random Pictures</a>
+                    <a href="#contact" onclick="closeNav()">Contact</a>
                 </div>
             </div>
-            <span style="font-size:2em; margin: 5px; cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+            <div id="menu">
+                 <p class="alignleft">
+                     <span style="font-size:1.7em; float:left; cursor:pointer" onclick="openNav()">
+                        <i class="fa fa-bars" aria-hidden="true"></i> Menu
+                    </span>
+                </p>
+                <p class="alignright">
+                    <span style="font-size:1.7em; float:right;">Nathaniel Goenawan</span>
+                </p>
+            </div> 
+            <div style="clear:both;"></div>
         </header>
         <section id= "about">
             <h1>About</h1>
@@ -104,13 +115,12 @@
         <script>
             function openNav()
             {
-                document.getElementById("sidenav").style.width="30%";
-                document.body.style.backgroundColor = "rgba(0,0,0,.4)";
+                document.getElementById("sidenav").style.width="25%";
+        
             }
             function closeNav()
             {
                 document.getElementById("sidenav").style.width="0%";
-                document.body.style.backgroundColor = "rgba(0,0,0,0)";
             }    
         </script>
     </body>
