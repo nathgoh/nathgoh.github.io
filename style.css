@@ -15,36 +15,39 @@ html
     position: fixed;
     height: 100%;
     width: 100%;
-    z-index: -1;  
+    z-index: -2;  
 }
 body
 {
     background-image: url("mountain1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-style:none;
-    position:relative;
+    border-style: none;
+    position: relative;
     height: 100%;
-    min-height:100%;
     width: 100%;
-    min-width: 100%;
+    min-height:100%;
     top: 0; right: 0; left: 0;
-    margin:0;
+    margin: 0;
     font-family: 'Noto Sans', 'sans-serif';
     font-weight: 100;
 }
 /*Header Stuff*/
 header
 {
-    padding: 1px 16px 16px 16px;
-    background-color: rgba(30,30,30,0.8);
+    width: 100%;
+    padding: 14px 16px;
+    background-color: rgba(0,20,35,0.85);
     color: white;
 }
-h1
+h2
 {
+    background-color: rgba(50,50,50,0.7);
+    padding: 8px 16px;
     font-size: 1.5em;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
+    border-style: none;
 }
 /*Section Stuff*/
 section
@@ -53,17 +56,14 @@ section
     border-radius: 10px;
     box-shadow: 2px 4px 2px rgba(80,80,80,0.4);
     background-color: rgba(80,80,80,0.7);
-    width: 100%;
-    margin: auto auto 35px auto;
-    margin-top: 30px;
-    max-width: 1250px;
+    margin: 2% 8% 1.5% 8%;
     padding: 1px 10px 1px 24px;
     color: white;
 }
 /*Footer Stuff*/
 footer
 {
-    background-color: rgba(30,30,30,0.8);
+    background-color: rgba(0,20,35,0.85);
     color: white;
     width: 100%;
     right: 0;
@@ -72,6 +72,7 @@ footer
     margin: 20px 0 0 0;
     padding: 16px;
     text-align: center;
+    font-size: 1.05em;
 }
 /*Animation and styling of side navigation*/
 .overlay
