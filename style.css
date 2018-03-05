@@ -15,6 +15,7 @@ html
     position: fixed;
     height: auto;
     width: auto;
+    marigin: auto;
     z-index: -2;  
 }
 body
