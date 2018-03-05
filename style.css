@@ -13,8 +13,8 @@ html
     -o-background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     z-index: -2;  
 }
 body
