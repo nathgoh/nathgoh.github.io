@@ -12,11 +12,11 @@ html
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
+    position: auto;
     height: auto;
     width: auto;
     marigin: auto;
-    z-index: -2;  
+    z-index: auto;  
 }
 body
 {
