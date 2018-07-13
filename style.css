@@ -58,7 +58,7 @@ p
     padding: 0px 18px 20px 18px;
 }
 /*Footer Stuff*/
-footer
+/*footer
 {
     background-color: rgba(0,20,35,0.85);
     color: white;
@@ -70,63 +70,4 @@ footer
     padding: 16px;
     text-align: center;
     font-size: 1.05em;
-}
-/*Animation and styling of side navigation*/
-.overlay
-{
-    height: 100%;
-    width: 0;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    position: fixed;
-    background-color: rgba(0,20,35,1);
-    overflow-x: hidden;
-    transition: 0.6s;
-}
-.overlay-content
-{
-    position: relative;
-    top: 15%;
-    width: 100%;
-    text-align: left;
-}
-.overlay a
-{
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 100;
-    display: block;
-    transition: 0.8s;
-}
-.overlay a:hover, .overlay a:focus
-{
-    color: ;
-}
-.overlay .closebtn
-{
-    position: absolute;
-    top: 0px;
-    right: 45px;
-    font-size: 50px;
-}
-#opacity
-{
-    transition: 1s;
-}
-@media screen and (max-height: 450px) 
-{
-    .overlay a 
-    {
-        font-size: 18px
-    }
-    .overlay .closebtn 
-    {
-        font-size: 30px;
-        top: 0px;
-        right: 35px;
-    }
-}
+}*/
