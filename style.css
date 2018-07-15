@@ -1,22 +1,15 @@
 html
 {
-    height: 100%;
-    min-height: 100%;
+    height: auto;
+    min-height: auto;
 }
 /*Background*/
 #background
 {
-    background-image: url(city1.jpg);
+    background-image: url(mountain.png);
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
-    position: fixed;
-    height: auto;
-    width: auto;
-    margin: auto;
-    z-index: auto;  
+    background-repeat: no-repeat; 
+    z-index: -1;
 }
 body
 {
@@ -58,11 +51,10 @@ p
     padding: 0px 18px 20px 18px;
 }
 /*Footer*/
-/*footer
+footer
 {
-    background-color: rgba(0,20,35,0.85);
-    color: white;
-    width: 100%;
+    background-color: white;
+    color: darkblue;
     right: 0;
     bottom: 0;
     position: relative;
@@ -70,8 +62,4 @@ p
     padding: 16px;
     text-align: center;
     font-size: 1.05em;
-    <footer>
-        <span class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017 by Nathaniel Goenawan. All rights reserved.</span>
-    </footer>
-
-}*/
+}
