@@ -15,7 +15,7 @@ html
     position: fixed;
     height: auto;
     width: auto;
-    marigin: auto;
+    margin: auto;
     z-index: auto;  
 }
 body
@@ -57,7 +57,7 @@ p
     margin: 0;
     padding: 0px 18px 20px 18px;
 }
-/*Footer Stuff*/
+/*Footer*/
 /*footer
 {
     background-color: rgba(0,20,35,0.85);
@@ -70,4 +70,8 @@ p
     padding: 16px;
     text-align: center;
     font-size: 1.05em;
+    <footer>
+        <span class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017 by Nathaniel Goenawan. All rights reserved.</span>
+    </footer>
+
 }*/
