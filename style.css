@@ -16,6 +16,19 @@ body
     font-family: 'Noto Sans', 'sans-serif';
     font-weight: 100;
 }
+
+/*Navigation Bar*/
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+li a
+{
+    display: block;
+}
 /*Header Stuff*/
 header
 {
@@ -53,13 +66,14 @@ p
 /*Footer*/
 footer
 {
-    background-color: white;
-    color: darkblue;
+    background-color: #848484;
+    color: whitesmoke;
     right: 0;
     bottom: 0;
     position: relative;
-    margin: 30px 0px 0px 0px;
-    padding: 16px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
     text-align: center;
-    font-size: 1.05em;
+    font-size: 1.30em;
+    font-weight: bold;
 }
