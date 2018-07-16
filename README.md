@@ -1,4 +1,3 @@
 # nathgoh.github.io
-My website
-Work-in-progress
-Lol very not good
+My website currently being worked on
+Very rough and unfinished
