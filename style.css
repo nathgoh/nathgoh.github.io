@@ -16,26 +16,27 @@ body
 {
     font-family: 'Noto Sans', 'sans-serif';
     font-weight: 100;
+    margin: 0;
 }
 
-/*Navigation Bar*/
-nav
+/*Vertical Navigation Bar*/
+#web-nav
 {
-    background-color: #453499;
-    width: 20%;
+    background-color: rgb(25, 25, 100);
+    width: 17%;
     height: 100%;
-    margin: 0;
     overflow: auto;
     position: fixed;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
 }
-ul
+#menu
 {
     list-style-type: none;
     text-align: center;
     padding: 0;
+    margin: 0;
 }
 li a
 {
@@ -44,6 +45,18 @@ li a
     color: whitesmoke;
     padding: 8px 16px;
     font-size: 1.75em;
+}
+
+/*Sections*/
+#section
+{
+    height: 100%;
+    overflow-y: auto;
+    color: ghostwhite;
+    font-size: 1.15em;
+    margin-left: 20%;
+    margin-right: 3%;
+    padding-top: 1%;
 }
 /*Footer*/
 /*footer
