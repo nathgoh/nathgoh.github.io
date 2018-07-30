@@ -11,27 +11,24 @@ html
     top: 0;
     left: 0;
     z-index: -1;
-    -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%;
 }
 body
 {
+    margin: 0;
     font-family: 'Noto Sans', 'sans-serif';
     font-weight: 100;
-    margin: 0;
 }
 
 /*Vertical Navigation Bar*/
 #web-nav
 {
-    background-color: rgb(25, 25, 100);
+    background-color: rgb(10, 30, 60);
     width: 17%;
     height: 100%;
     overflow: auto;
     position: fixed;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
     text-align: center;
 }
 #menu
@@ -49,6 +46,14 @@ li a
     padding: 8px 16px;
     font-size: 1.75em;
 }
+li a.active
+{
+    background-color: rgb(25, 75, 200);
+}
+li a:hover:not(.active)
+{
+    background-color: rgb(15, 35, 85);
+}
 
 /*Sections*/
 #section
@@ -59,7 +64,6 @@ li a
     font-size: 1.15em;
     margin-left: 20%;
     margin-right: 3%;
-    padding-top: 1%;
 }
 /*Footer*/
 /*footer
