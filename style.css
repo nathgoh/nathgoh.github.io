@@ -11,9 +11,9 @@ html
     top: 0;
     left: 0;
     z-index: -1;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%;
 }
 body
 {
