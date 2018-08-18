@@ -62,7 +62,8 @@ li a:hover:not(.active)
     color: ghostwhite;
     font-size: 1.15em;
     margin-left: 20%;
-    margin-right: 5%;
+    margin-right: 3%;
+    border-radius: 15px;
 }
 /*Footer*/
 /*footer
