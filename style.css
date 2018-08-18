@@ -17,6 +17,7 @@ body
     margin: 0;
     font-family: 'Noto Sans', 'sans-serif';
     font-weight: 100;
+    border-radius: 25px;
 }
 /*Vertical Navigation Bar*/
 #web-nav
