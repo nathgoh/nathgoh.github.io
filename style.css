@@ -56,6 +56,7 @@ li a:hover:not(.active)
 /*Sections*/
 #section
 {
+    background-color: rgb(10, 30, 60);
     height: 100%;
     overflow-y: auto;
     color: ghostwhite;
