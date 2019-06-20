@@ -2,26 +2,37 @@
 <html>
     <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+        <!-- Basic Stuff -->
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href= "logo.png">
+        
+        <title>Nathaniel Goh </title>
+ 
+        <!--Fonts and icons-->
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <script src="https://use.fontawesome.com/b8d7db3a54.js"></script>
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <title>Nathaniel Goh </title>
+        
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+        
+        <!-- Custom CSS File -->
+        <link href="style.css" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>    
     </head>
     <body id="background">
-        <div id="nav-placeholder">
-        </div>
-        <script>
-            $(function(){$("#nav-placeholder").load("nav.html");});
-        </script>
-        <div id="section">
-            <p>
-                Hello! This is me. I'm Nathaniel and welcome to my website. This is still a work-in-progress and hopefully I can still work on my website while I am at university. That's right, I'm a college student! Currently, I am attending Stanford University and I am considering taking my undergraduate degree on Computer Science.
-            </p>
+        
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        
+        <div>
+            <h1>Hello</h1>
+            <p>My name is Nathaniel </p>
         </div>
     </body>          
 </html>

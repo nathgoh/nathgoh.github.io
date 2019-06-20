@@ -1,80 +1,21 @@
-html
-{
+html {
     height: auto;
     min-height: auto;
 }
+
 /*Background*/
-#background
-{
-    background-image: url(pattern1.jpg);
-    background-size: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-body
-{
+#background {
+    /*Photo by MUNMUN SINGH on Unsplash*/
+    background: url(blurry1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}   
+
+body {
     margin: 0;
-    font-family: 'Noto Sans', 'sans-serif';
+    font-family: 'Arial', 'sans-serif';
     font-weight: 100;
+    color: rgb(180,180,190);
 }
-/*Vertical Navigation Bar*/
-#web-nav
-{
-    background-color: rgb(10, 30, 60);
-    width: 17%;
-    height: 100%;
-    overflow: auto;
-    position: fixed;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    text-align: center;
-}
-#menu
-{
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-li a
-{
-    display: block;
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 8px 16px;
-    font-size: 1.75em;
-}
-li a.active
-{
-    background-color: rgb(25, 75, 200);
-}
-li a:hover:not(.active)
-{
-    background-color: rgb(15, 35, 85);
-}
-/*Sections*/
-#section
-{
-    background-color: rgb(10, 30, 60);
-    height: 100%;
-    overflow-y: auto;
-    color: ghostwhite;
-    font-size: 1.15em;
-    margin-left: 20%;
-    margin-right: 3%;
-}
-/*Footer*/
-/*footer
-{
-    background-color: #848484;
-    color: whitesmoke;
-    margin: 0px 0px 0px 0px;
-    padding: 18px;
-    text-align: center;
-    font-size: 1.25em;
-    font-weight: bold;
-<footer>
-            <span class="copyright">&copy; Copyright 2018 by Nathaniel Goenawan. All rights reserved.</span>
-        </footer> 
-}*/
