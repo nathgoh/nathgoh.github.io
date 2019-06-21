@@ -1,0 +1,22 @@
+{
+  "name": "nathgoh.github.io",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathgoh/nathgoh.github.io.git"
+  },
+  "author": "Nathaniel Goh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathgoh/nathgoh.github.io/issues"
+  },
+  "homepage": "https://github.com/nathgoh/nathgoh.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
