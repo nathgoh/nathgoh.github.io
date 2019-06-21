@@ -2,7 +2,7 @@
   "name": "nathgoh.github.io",
   "version": "1.0.0",
   "description": "Website",
-  "main": "index.jsx",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +15,12 @@
   "bugs": {
     "url": "https://github.com/nathgoh/nathgoh.github.io/issues"
   },
-  "homepage": "https://github.com/nathgoh/nathgoh.github.io#readme",
+  "homepage": "https://github.com/nathgoh/nathgoh.github.io/index.html",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
   }
 }
