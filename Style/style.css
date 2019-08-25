@@ -1,19 +1,61 @@
-html {
+html, body {
     height: 100%;
     min-height: auto;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(180, 180, 190);
 }
 
-/*Background*/
+/* Background */
 #background {
     background: url(/Background/dark-lowpoly2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
 }
 
-body {
-    margin: 0;
-    font-family: 'Arial', 'sans-serif';
-    color: rgb(180, 180, 190);
+
+/* Splash Screen */
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(/Background/splash_screen.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
+#opacity {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(32, 32, 32, 0.65);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+
+}
+
+.content {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    
+}
+
+
+/* Main contents of the website*/
+.container-custom {
+    padding: 1.75em;
+    margin: 1.25em;
+    background-color: grey;
+    border-radius: 0.75em;
+
 }
