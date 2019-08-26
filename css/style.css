@@ -47,23 +47,44 @@ html, body {
     max-width: none;
 }
 
-.content {
+.landing-content {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     margin: auto center;
 }
 
-.content img {
+.landing-content img {
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
     margin-bottom: 3em;
 }
 
-.content h1 {
+.landing-content h1 {
     font-size: 5em;
 }
 
-.content h3 {
+.landing-content h3 {
     font-size: 2.5em;
+}
+
+.landing-content nav {
+    height: 0em;
+    width: 3em;
+}
+
+.landing-content ul {
+    list-style: none;
+}
+
+.landing-content li {
+    display: inline;
+}
+
+.landing-content .icon {
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 .75em 0 0;
 }
 
 /* Main contents of the website*/
@@ -79,35 +100,41 @@ html, body {
 @media screen and (max-width: 1080px) {
     
     /* Landing Screen font resize */
-    .content h1 {
-        font-size: 3.5em;
+    .landing-content h1 {
+        font-size: 4em;
     }
-    .content h3 {
-        font-size: 1.75em;
+    .landing-content h3 {
+        font-size: 2em;
     }
-    .content img {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 1.75em;
-    
+    .landing-content img {
+        width: 225px;
+        height: 225px;
+        margin-bottom: 2em;
+    }
+    .landing-content .icon {
+        font-size: 54px;
+        padding: 0 .5em 0 0;
+    }
 }
 
 /* Resize font when website size shrinks */
 @media screen and (max-width: 720px) {
     
     /* Landing Screen font resize */
-    .content h1 {
+    .landing-content h1 {
         font-size: 2.75em;
     }
-    .content h3 {
+    .landing-content h3 {
         font-size: 1.25em;
     }
-    .content img {
+    .landing-content img {
         width: 150px;
         height: 150px;
-        margin-bottom: 1.25em;
+        margin-bottom: 1.5em;
+    }
+    .landing-content .icon {
+        font-size: 36px;
+        padding: 0 .35em 0 0;
+    }
     
 }
-
-
-
