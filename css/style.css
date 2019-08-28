@@ -11,7 +11,7 @@ html, body {
 
 /* Background */
 #background {
-    background: url(/background/dark-lowpoly2.jpg) repeat center center fixed;
+    background: url(/nathgoh.github.io/background/dark-lowpoly2.jpg) repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,7 +26,7 @@ html, body {
     margin: auto;
     top: 0;
     display: table;
-    background: url(/background/landing_screen.jpg) no-repeat center center fixed;
+    background: url(/nathgoh.github.io/background/landing_screen.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
