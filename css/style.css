@@ -54,23 +54,18 @@ html, body {
 }
 
 .landing-content img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 1.25em;
 }
 
 .landing-content h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .landing-content h3 {
-    font-size: 2.5em;
-}
-
-.landing-content nav {
-    height: 0em;
-    width: 3em;
+    font-size: 2.em;
 }
 
 .landing-content ul {
@@ -82,9 +77,34 @@ html, body {
 }
 
 .landing-content .icon {
-    font-size: 64px;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 .5em 0 0;
+    transition: 0.75s;
+}
+
+.landing-content .icon:hover {
+    color: rgba(255, 255, 255, 1); 
+    transition: 0.75s;
+}
+
+.landing-content .btn {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.7);
+    border: solid 3px;
+    border-radius: 35%;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    transition: 0.75s;
+    
+}
+
+.landing-content .btn:hover {
     color: rgba(255, 255, 255, 1);
-    padding: 0 .75em 0 0;
+    border-color: rgba(255, 255, 255, 1);
+    transition: 0.75s;
+    transform: scale(1.2);
 }
 
 /* Main contents of the website*/
@@ -101,19 +121,19 @@ html, body {
     
     /* Landing Screen font resize */
     .landing-content h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
     .landing-content h3 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .landing-content img {
         width: 225px;
         height: 225px;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     .landing-content .icon {
-        font-size: 54px;
-        padding: 0 .5em 0 0;
+        font-size: 36px;
+        padding: 0 .4em 0 0;
     }
 }
 
@@ -122,7 +142,7 @@ html, body {
     
     /* Landing Screen font resize */
     .landing-content h1 {
-        font-size: 2.75em;
+        font-size: 2.5em;
     }
     .landing-content h3 {
         font-size: 1.25em;
@@ -130,11 +150,11 @@ html, body {
     .landing-content img {
         width: 150px;
         height: 150px;
-        margin-bottom: 1.5em;
+        margin-bottom: 0.75em;
     }
     .landing-content .icon {
-        font-size: 36px;
-        padding: 0 .35em 0 0;
+        font-size: 24px;
+        padding: 0 .3em 0 0;
     }
     
 }
