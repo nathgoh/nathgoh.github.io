@@ -11,7 +11,7 @@ html, body {
 
 /* Background */
 #background {
-    background: url(/nathgoh.github.io/background/dark-lowpoly2.jpg) repeat center center fixed;
+    background: url(/background/dark-lowpoly2.jpg) repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,10 +23,10 @@ html, body {
 .landing {
     height: 100%;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     top: 0;
     display: table;
-    background: url(/nathgoh.github.io/background/landing_screen.jpg) no-repeat center center fixed;
+    background: url(/background/landing_screen.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -54,10 +54,10 @@ html, body {
 }
 
 .landing-content img {
-    height: 250px;
-    width: 250px;
+    height: 249px;
+    width: 249px;
     border-radius: 100%;
-    margin-bottom: 1.25em;
+    margin: 0 0 1.25em 0;
 }
 
 .landing-content h1 {
@@ -70,6 +70,8 @@ html, body {
 
 .landing-content ul {
     list-style: none;
+    margin: 0 center;
+    padding: 0;
 }
 
 .landing-content li {
@@ -88,16 +90,14 @@ html, body {
     transition: 0.75s;
 }
 
-.landing-content .btn {
-    font-size: 48px;
+.landing-content .btn { 
+    font-size: 42px;
     color: rgba(255, 255, 255, 0.7);
     border-color: rgba(255, 255, 255, 0.7);
     border: solid 3px;
-    border-radius: 35%;
-    padding-top: 5px;
-    padding-bottom: 1px;
+    border-radius: 28%;
+    padding: 6px 15px 0px 15px;
     transition: 0.75s;
-    
 }
 
 .landing-content .btn:hover {
@@ -135,6 +135,11 @@ html, body {
         font-size: 36px;
         padding: 0 .4em 0 0;
     }
+    .landing-content .btn {
+        font-size: 32px;
+        padding: 5px 12px 0px 12px; 
+        border-width: 2.5px;
+    }
 }
 
 /* Resize font when website size shrinks */
@@ -154,7 +159,11 @@ html, body {
     }
     .landing-content .icon {
         font-size: 24px;
-        padding: 0 .3em 0 0;
+    }
+     .landing-content .btn {
+        font-size: 24px;
+        padding: 4px 10px 0px 10px;
+        border-width: 2px;
     }
     
 }
