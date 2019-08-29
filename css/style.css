@@ -25,12 +25,14 @@ html, body {
     width: 100%;
     margin: 0 auto;
     top: 0;
-    display: table;
-    background: url(/background/landing_screen.jpg) no-repeat center center fixed;
+    background: url(../background/landing_screen.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: table;
+    justify-content: center;
+    align-items: center;
    
 }
 
@@ -42,9 +44,9 @@ html, body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    display: table-cell;
     vertical-align: middle;
     max-width: none;
+    display: table-cell;
 }
 
 .landing-content {
@@ -54,18 +56,18 @@ html, body {
 }
 
 .landing-content img {
-    height: 249px;
-    width: 249px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
-    margin: 0 0 1.25em 0;
+    margin: 0 0 1.5em 0;
 }
 
 .landing-content h1 {
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .landing-content h3 {
-    font-size: 2.em;
+    font-size: 2.5em;
 }
 
 .landing-content ul {
@@ -98,6 +100,7 @@ html, body {
     border-radius: 28%;
     padding: 6px 15px 0px 15px;
     transition: 0.75s;
+    margin-top: 1em;
 }
 
 .landing-content .btn:hover {
