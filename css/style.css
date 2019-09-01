@@ -11,7 +11,7 @@ html, body {
 
 /* Background */
 #background {
-    background: url(/background/dark-lowpoly2.jpg) repeat center center fixed;
+    background: url(/background/darkblue-lowpoly.jpg) repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,15 +59,15 @@ html, body {
     height: 250px;
     width: 250px;
     border-radius: 100%;
-    margin: 0 0 1.5em 0;
+    margin: 0 0 1em 0;
 }
 
 .landing-content h1 {
-    font-size: 5em;
+    font-size: 4.25em;
 }
 
 .landing-content h3 {
-    font-size: 2.5em;
+    font-size: 2.25em;
 }
 
 .landing-content ul {
@@ -83,8 +83,8 @@ html, body {
 .landing-content .icon {
     font-size: 50px;
     color: rgba(255, 255, 255, 0.7);
-    padding: 0 .5em 0 0;
     transition: 0.75s;
+    margin: 0 .75em 0 .55em;
 }
 
 .landing-content .icon:hover {
@@ -93,19 +93,14 @@ html, body {
 }
 
 .landing-content .btn { 
-    font-size: 42px;
+    font-size: 44px;
     color: rgba(255, 255, 255, 0.7);
-    border-color: rgba(255, 255, 255, 0.7);
-    border: solid 3px;
-    border-radius: 28%;
-    padding: 6px 15px 0px 15px;
     transition: 0.75s;
     margin-top: 1em;
 }
 
 .landing-content .btn:hover {
     color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
     transition: 0.75s;
     transform: scale(1.2);
 }
@@ -113,60 +108,63 @@ html, body {
 /* Main contents of the website*/
 .container-custom {
     padding: 1.75em;
-    margin: 1.25em;
+    margin-top: 3em;
+    margin-left: 3.75em;
+    margin-right: 3.75em;
     background-color: grey;
     border-radius: 0.75em;
-
 }
 
 /* Resize font when website size shrinks */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 992px) {
     
     /* Landing Screen font resize */
     .landing-content h1 {
-        font-size: 3.5em;
+        font-size: 3.25em;
     }
     .landing-content h3 {
         font-size: 1.5em;
     }
     .landing-content img {
-        width: 225px;
-        height: 225px;
-        margin-bottom: 1em;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 0.75em;
     }
     .landing-content .icon {
-        font-size: 36px;
-        padding: 0 .4em 0 0;
+        font-size: 40px;
+        margin: 0 .65em 0 .45em;
     }
     .landing-content .btn {
-        font-size: 32px;
+        font-size: 36px;
         padding: 5px 12px 0px 12px; 
         border-width: 2.5px;
+        margin-top: 0.05em;
     }
 }
 
 /* Resize font when website size shrinks */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     
     /* Landing Screen font resize */
     .landing-content h1 {
-        font-size: 2.5em;
+        font-size: 2.25em;
     }
     .landing-content h3 {
-        font-size: 1.25em;
+        font-size: 1.10em;
     }
     .landing-content img {
-        width: 150px;
-        height: 150px;
-        margin-bottom: 0.75em;
+        width: 125px;
+        height: 125px;
+        margin-bottom: 0.5em;
     }
     .landing-content .icon {
-        font-size: 24px;
+        font-size: 32px;
+        margin: 0 .55em 0 .25em;
     }
      .landing-content .btn {
-        font-size: 24px;
+        font-size: 28px;
         padding: 4px 10px 0px 10px;
         border-width: 2px;
-    }
-    
+        margin-top: 0;
+    }   
 }
