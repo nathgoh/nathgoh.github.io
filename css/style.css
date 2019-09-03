@@ -35,11 +35,11 @@ html, body {
    
 }
 
-#opacity {
+.opacity {
     height: 100%;
     width: 100%;
     margin: auto;
-    background-color: rgba(32, 32, 32, 0.7);
+    background-color: rgba(32, 32, 32, 0.6);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -154,7 +154,7 @@ html, body {
         margin-top: 2.25em;
         margin-left: 3em;
         margin-right: 3em;
-    }
+    }x`x
 }
 
 /* Resize font when website size shrinks */
