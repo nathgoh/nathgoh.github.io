@@ -4,7 +4,6 @@ html, body {
     min-height: auto;
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
     color: white;
     overflow-x: hidden;
 }
@@ -111,11 +110,6 @@ html, body {
     transition: 0.75s;
 }
 
-.navbar-brand:hover {
-    color: dimgray;
-    transition: 0.75s;
-}
-
 .nav-link {
     color: white;
     transition: 0.75s;
@@ -126,20 +120,32 @@ html, body {
     transition: 0.75s;
 }
 
-#navigation {
+.navbar-toggler {
+    color: white;
+    font-size: 1.4em;
+}
+
+#navBar {
     background-color: #000d1b;
     opacity: 0.95;
     font-size: 1.2em;
 }
 
+#navbarSupportedContent .navbar-nav .nav-item {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 /* Main contents of the website*/
+/*
 .card {
-    /*padding: 1.5em 2.25em 1.5em 2.25em;*/
+    padding: 1.5em 2.25em 1.5em 2.25em;
     margin-top: 3em;
     margin-left: 3.75em;
     margin-right: 3.75em;
     border-radius: 0.75em;
 }
+*/
 
 .card-header {
     background-color: #191919;
@@ -179,12 +185,14 @@ html, body {
     }
     
     /* Sections */
+/*
     .card {
         padding: 1.25em 2em 1.25em 2em;
         margin-top: 2.25em;
         margin-left: 3em;
         margin-right: 3em;
     }
+*/
 }
 
 /* Resize font when website size shrinks */
@@ -214,10 +222,12 @@ html, body {
     }
     
      /* Sections */
+/*
     .card {
         padding: 1em 1.75em 1em 1.75em;
         margin-top: 1.75em;
         margin-left: 2.5em;
         margin-right: 2.5em;
     }
+*/
 }
