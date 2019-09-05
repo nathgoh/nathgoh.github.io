@@ -122,18 +122,22 @@ html, body {
 
 .navbar-toggler {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 #navBar {
     background-color: #000d1b;
     opacity: 0.95;
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
 
 #navbarSupportedContent .navbar-nav .nav-item {
     padding-left: 1em;
     padding-right: 1em;
+}
+
+#navbar-icon {
+    width: 35px;
 }
 
 /* Main contents of the website*/
@@ -184,6 +188,21 @@ html, body {
         margin-top: 0.05em;
     }
     
+    #navBar {
+        background-color: #000d1b;
+        opacity: 0.95;
+        font-size: 1em;
+    }
+
+    #navbarSupportedContent .navbar-nav .nav-item {
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+    }
+
+    #navbar-icon {
+        width: 30px;
+    }
+    
     /* Sections */
 /*
     .card {
@@ -193,6 +212,7 @@ html, body {
         margin-right: 3em;
     }
 */
+    
 }
 
 /* Resize font when website size shrinks */
@@ -219,6 +239,10 @@ html, body {
         padding: 4px 10px 0px 10px;
         border-width: 2px;
         margin-top: 0;
+    }
+    
+     #navbar-icon {
+        width: 20px;
     }
     
      /* Sections */
