@@ -9,6 +9,7 @@ html, body {
 }
 
 /* Background */
+/*
 #background {
     background: url(/background/darkblue-lowpoly.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -16,6 +17,7 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
+*/
 
 /* Landing Screen */
 .landing {
@@ -137,7 +139,7 @@ html, body {
 }
 
 #navbar-icon {
-    width: 35px;
+    width: 30px;
 }
 
 /* Main contents of the website*/
@@ -200,7 +202,7 @@ html, body {
     }
 
     #navbar-icon {
-        width: 30px;
+        width: 25px;
     }
     
     /* Sections */
