@@ -4,20 +4,22 @@ html, body {
     min-height: auto;
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
-    color: white;
     overflow-x: hidden;
+    color: white;
+}
+
+section {
+    margin: 2em;
 }
 
 /* Background */
-/*
 #background {
-    background: url(/background/darkblue-lowpoly.jpg) no-repeat center center fixed;
+    background: url(../background/P1001046.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-*/
 
 /* Landing Screen */
 .landing {
@@ -32,18 +34,17 @@ html, body {
     background-size: cover;
     display: table;
     justify-content: center;
-    align-items: center;   
+    align-items: center; 
 }
 .opacity {
     height: 100%;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     background-color: rgba(32, 32, 32, 0.6);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     vertical-align: middle;
-    max-width: none;
     display: table-cell;
 }
 .landing-content {
@@ -125,32 +126,30 @@ html, body {
     width: 30px;
 }
 
-/* Main contents of the website*/
-/*
+/* Sections */
 .card {
-    padding: 1.5em 2.25em 1.5em 2.25em;
-    margin-top: 3em;
-    margin-left: 3.75em;
-    margin-right: 3.75em;
-    border-radius: 0.75em;
+    border-radius: 12px;
 }
-*/
-.card-header {
-    background-color: #191919;
+
+.card .card-header {
+    font-size: 2.5em;
+    background-color: rgba(20, 30, 52, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-body {
     font-size: 1.5em;
 }
-.card-text {
-    font-weight: 400;
-    font-size: 1.2em;
+
+
+
     
-}
 
 /* Photos section*/
-.card-body img {
+img {
     width: 80%;
 }
-
-
 
 /* Resize font when website size shrinks */
 @media screen and (max-width: 992px) {
@@ -192,16 +191,7 @@ html, body {
         width: 25px;
     }
     
-    /* Sections */
-/*
-    .card {
-        padding: 1.25em 2em 1.25em 2em;
-        margin-top: 2.25em;
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-*/
-    
+   
 }
 
 /* Resize font when website size shrinks */

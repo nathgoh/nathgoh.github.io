@@ -27,10 +27,10 @@
     <link href="/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="background">
     <!-- Landing Page -->
     <a name="home"></a>
-    <section class="landing">
+    <div class="landing">
         <div class="opacity">
             <div class="landing-content">
                 <img src="/images/profile.jpg">
@@ -46,7 +46,7 @@
                 <a class="btn" href="#main"><span class="fas fa-chevron-down"></span></a>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Top Navigation Bar -->
     <a name="main"></a>
@@ -80,25 +80,23 @@
     <!-- About Section -->
     <a name="about"></a>
     <section class="about">
-        <div class="card bg-dark">
-            <div class="card-header">
-                About
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card bg-dark">
+                        <div class="card-header">
+                            About
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                I'm Nathaniel Goenawan, a Computer Science undergraduate at Stanford University. Originally from Kalamazoo, Michigan.
+                            </p>
+                            <p class="card-text">
+                                If I'm not busy with classes you'll find me playing badminton - the best sport in the world, reading a book, drawing, or enjoying nature. I also enjoy taking pictures, they're a great way to remember and capture an experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-body">
-                <p class="card-text">
-                    WEBSITE UNDER DEVELOPMENT | WEBSITE UNDER DEVELOPMENT | WEBSITE UNDER DEVELOPMENT
-                </p>
-                <p class="card-text">
-                    I'm Nathaniel Goenawan, a Computer Science undergraduate at Stanford University. Originally from Kalamazoo, Michigan.
-                </p>
-                <p class="card-text">
-                    If I'm not busy with classes you'll find me playing badminton - the best sport in the world, reading a book, drawing, or enjoying nature. I also enjoy taking pictures, they're a great way to remember and capture an experience.
-                </p>
-                <p class="card-text">
-
-                </p>
-            </div>
-        </div>
     </section>
 
     <!-- Projects Section -->
@@ -111,21 +109,21 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="card-text">
+                        <div class="card-text" data-toggle="modal" data-target="#project-SESUR">
                             June 2019 - August 2019
-                            <iframe src="../projects/Research Poster - SESUR.pdf"></iframe>
+                            <img class="card-img-top" src="../images/stanford_seal.png">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card-text">
                             October 2017 - May 2018
-                            <iframe src="../projects/ISEF Board Final 2018.pdf"></iframe>
+                             <img class="card-img-top" src="../images/wmu.png">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card-text">
                             October 2016 - May 2017
-                            <iframe src="../projects/ISEF Board Final 2017.pdf"></iframe>
+                             <img class="card-img-top" src="../images/wmu.png">
                         </div>
                     </div>
                 </div>
@@ -202,6 +200,4 @@
 
     <!-- Custom Javascript -->
     <script type=text/javascript src="/js/script.js"></script>
-</body>
-
-</html>
+</body></html>
