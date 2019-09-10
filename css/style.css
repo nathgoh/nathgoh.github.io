@@ -12,7 +12,9 @@ section {
     margin: 2em;
 }
 
-/* Background */
+/*****************
+    Background 
+*****************/
 #background {
     background: url(../background/P1001046.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
