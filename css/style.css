@@ -112,7 +112,7 @@ section {
     transition: 0.75s;
 }
 .nav-link:hover {
-    color: dimgray;
+    color: deepskyblue;
     transition: 0.75s;
 }
 .navbar-toggler {
@@ -139,7 +139,7 @@ section {
     border-radius: 12px;
 }
 .card .card-header {
-    font-size: 2.25em;
+    font-size: 2em;
     background-color: rgba(20, 30, 52, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -147,11 +147,14 @@ section {
 }
 .card .card-body {
     font-size: 1.25em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
 }
 
-    
+.card-img-top {
+    width: 75%;
+}
+
 img {
     width: 80%;
 }
@@ -197,8 +200,6 @@ img {
     #navbar-icon {
         width: 25px;
     }
-    
-   
 }
 
 /******************************************* 
@@ -229,7 +230,8 @@ img {
         margin-top: 0;
     }
     
-     #navbar-icon {
+    #navbar-icon {
         width: 20px;
     }
+    
 }
