@@ -1,4 +1,3 @@
 # nathgoh.github.io
-My website currently being worked on.
-Very rough and unfinished.
+My website that is a fancy one webpage dedicated to all my social media links and the likes :DDDDD
 
